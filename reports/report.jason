@@ -1,0 +1,152 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login-action;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5093039,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "Steps.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3675162,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Navigate to LogIn Page",
+            "match": {
+              "location": "Steps.user_Navigate_to_LogIn_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2398170,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters UserName and Password",
+            "match": {
+              "location": "Steps.user_enters_UserName_and_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1549433,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Message displayed Login Successfully",
+            "match": {
+              "location": "Steps.message_displayed_Login_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Successful Login with Valid Credentials1",
+        "description": "",
+        "id": "login-action;successful-login-with-valid-credentials1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3631309,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is on Home Page1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.user_is_on_Home_Page(Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [false] but found [true]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:496)\r\n\tat org.testng.Assert.assertEquals(Assert.java:125)\r\n\tat org.testng.Assert.assertEquals(Assert.java:288)\r\n\tat org.testng.Assert.assertEquals(Assert.java:298)\r\n\tat stepDefination.Steps.user_Navigate_to_LogIn_Page(Steps.java:47)\r\n\tat ✽.User Navigate to LogIn Page1(D:/Automation/BDDCucumber/scenario.feature:11)\r\n",
+              "duration": 13539037,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "User Navigate to LogIn Page1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 27
+                }
+              ],
+              "location": "Steps.user_Navigate_to_LogIn_Page(Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User enters UserName and Password1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 33
+                }
+              ],
+              "location": "Steps.user_enters_UserName_and_Password(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Message displayed Login Successfully1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 36
+                }
+              ],
+              "location": "Steps.message_displayed_Login_Successfully(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "D:/Automation/BDDCucumber/scenario.feature",
+    "tags": []
+  }
+]
